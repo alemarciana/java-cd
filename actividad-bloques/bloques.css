@@ -8,36 +8,36 @@
  margin: 0px auto;
 }
 #header{
- top: 4%;
+ width: 860px;
  margin-bottom: 0;
- min-height: 100px;
+ min-height: 135px;
  background-color: green;
 }
 #navigation{
  vertical-align: top;
  display: inline-block;
  margin-right: 0;
- min-height: 300px;
- width: 15%;
+ min-height: 280px;
+ width: 160px;
  background-color: blue;
 }
 #main_content{
  vertical-align: top;
  display: inline-block;
  right:0;
- min-height: 400px;
- width: 78%;
+ min-height: 390px;
+ width: 665px;
  background-color: red;
 }
 .subcontents{
  margin-right: 0;
  display: inline-block;
- min-height: 200px;
- width: 29%;
+ min-height: 180px;
+ width: 180px;
  background-color: yellow;
 }
 #advertisement{
  min-height: 100px;
- width: 94%;
+ width: 615px;
  background-color: purple;
 }
