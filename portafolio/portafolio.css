@@ -98,3 +98,8 @@
 	display: inline-block;
 	width: 20px;
 }
+.container footer a{
+	text-decoration: underline black;
+	color: black;
+	font-style: italic
+}
