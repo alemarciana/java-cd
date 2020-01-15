@@ -1,5 +1,5 @@
 *{
-	outline: 2px dotted blaqck;
+	/*outline: 2px dotted black;*/
 	padding: 0px;
 	margin: 0px;
 }
@@ -9,51 +9,94 @@
 	min-height: 300px;
 	width: 970px;
 	background-color: #5279ce;
-	background-image: linear-gradient(#1f517c,#6f8dce);
+	background-image: linear-gradient(#154875,#506faf);
 }
 #container header img{
 	display: inline-block;
 	margin-left: 20px;
+	margin-right: 360px;
 	width: 300px;
 }
 #container header #search{
 	display: inline-block;
-	padding: 10px 30px 10px 30px;
+	vertical-align: top;
+}
+#container header #search p{
+	margin-left: 50px;
+	color: white;
+}
+#container header #search a{
+	color: #dbb127;
+
+}
+#container header #search form{
+	padding: 10px 35px 10px 35px;
 	border-radius: 8px;
 	background-color: #666666;
+	box-shadow: 0 2px;
+}
+#container header #search form input{
+	height: 25px;
+}
+#container header #search form input[type=submit]{
+	background-color: #253e72;
+	border-style: groove;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
 }
 #container nav{
 	border-radius: 6px;
 	margin: 10px auto 10px auto;
 	background-color: #6183cc;
-	width: 630px;
+	width: 720px;
 	height: 20px;
 	padding: 10px;
+	box-shadow: 0 2px;
+}
+#container aside span{
+	color: yellow;
+	font-size: 8px;
 }
 #container nav a{
 	color: white;
 	text-decoration: none;
 	padding: 20px;
+	margin-left: 10px;
 }
 
 #container #main_content aside{
-	margin: 30px 40px auto 40px; 
+	margin: 30px 40px auto 100px; 
 	display: inline-block;
 	width: 200px;
 	text-align: center;
+	line-height: 150%;
 
+}
+#container #main_content aside li{
+	list-style: none;
 }
 #container #main_content aside a{
 	color: white;
 	text-decoration: underline;
 }
 #container #main_content #description{
-	margin: 10px auto auto auto;
+	margin: 10px auto 20px auto;
 	vertical-align: top;
 	display: inline-block;
 	text-align: center;
 	width: 400px;
 	color: white;
+	font-size: 11px;
+}
+#container #main_content #description ul{
+	margin: 10px auto 10px auto;
+}
+#container #main_content #description ul li{
+	color: #e0d42f;
+	list-style: none;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 160%;
 }
 #container #links{
 	background-color: white;
@@ -62,13 +105,41 @@
 	text-align: center;
 }
 #container #links .column{
+	vertical-align: top;
 	margin: 10px 0 0 20px;
 	display: inline-block;
 	border-top: 5px solid #7399c4;
-	width: 420px;
+	width: 340px;
 	min-height: 50px;
+	padding: 20px;
+}
+#container #links .column p{
+	margin-top: 5px;
+	font-size: 14px;
 }
 #container #links .column a{
 	color: #7399c4;
 	text-decoration: none;
+}
+footer{
+	padding: 0 200px 0 200px;
+	min-height: 60px;
+	text-align: center;
+}
+footer a{
+	color: #bed7ea;
+	display: inline-block;
+	margin: 30px 8px 5px 20px;
+	text-decoration: none;
+}
+footer span{
+	display: block;
+	font-size: 10px;
+	color: #bed7ea;
+}
+.large{
+	font-size: 25px;
+}
+.larger{
+	width: 6000px;
 }
