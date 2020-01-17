@@ -1,6 +1,6 @@
 * {
-	outline: 2px dotted black;
-	margin: 0;
+/*	outline: 2px dotted black;
+*/	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
 }
@@ -9,17 +9,17 @@
 	min-height: 300px;
 	position: relative;
 	margin: 0px auto;
-	background-image: linear-gradient(#b2b2b2, #f2f2f2, #f7f7f7, #f7f7f7, #f7f7f7);
+	background-image: linear-gradient(#a5a5a5, white, white, white, white);
 }
-#container header img{
+#container header#top img{
 	position: absolute;
 	width: 75px;
 }
-#container header h1{
+#container header#top h1{
 	background-color: white;
 	padding: 20px 0 5px 80px;
 }
-#container header h2{
+#container header#top h2{
 	padding: 10px 0 10px 15px;
 	color: white;
 }
@@ -34,6 +34,9 @@
 }
 .red{
 	color: #d11f1f;
+}
+.lblue{
+	color: #5fe2de;
 }
 .bg_blue{
 	background-image: linear-gradient(#4a6fb2, #6197a8, #4a6fb2);
@@ -88,10 +91,54 @@ a.button{
  }
  #container header.main{
  	display: inline-block;
- 	min-height: 50px;
  	width: 680px;
+ 	border-bottom: 1px solid black;
+ 	vertical-align: top;
  }
+#container header.main *{
+	vertical-align: top;
+}
+#container header.main #home{
+	width: 20px;
+ }
+#container header.main #phone{
+	margin-left: 395px;
+	display: inline-block;
+	width: 220px;
+}
+#container header.main #phone img{
+	width: 40px;
+	padding: 10px;
+}
+#container header.main #phone div{
+	display: inline-block;
+}
+#container header.main #phone p{
+	font-size: 10px;
+}
+#container #main_content{
+	line-height: 18px;
+}
 #container #main_content a{
 	color: #5fe2de;
 	text-decoration: none;
+}
+#container #main_content img.sc{
+	width: 210px;
+	margin: 15px 230px;
+}
+#container #main_content #images{
+	margin-top: 10px;
+	border: 5px solid #49b6cc;
+	padding: 10px;
+}
+#container #main_content #images img{
+
+	width: 100px;
+	padding-left: 15px;
+}
+#container #main_content #images div{
+	display: inline-block;
+	vertical-align: top;
+	width: 400px
 }
