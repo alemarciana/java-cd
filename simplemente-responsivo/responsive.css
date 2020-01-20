@@ -6,3 +6,56 @@
 #container{
 	padding: 10px;
 }
+h1{
+	background-color: #aaaaaa;
+	padding: 15px;
+}
+p#text{
+	margin-top: 5px;
+	background-color: #c6c6c6;
+	padding: 15px;
+}
+span{
+	font-weight: bold;
+}
+.footer{
+	background-color: #f6fc80;
+	border: 1px solid gray;
+
+}
+.footer p{
+	padding: 15px;
+}
+@media only screen and (max-width: 480px){
+	.desktop{
+		display: none;
+	}
+	.tablet{
+		display: none;
+	}
+	.phone{
+		display: block;
+	}
+}
+@media only screen and (min-width: 481px){
+	.desktop{
+		display: none;
+	}
+	.tablet{
+		display: block;
+	}
+	.phone{
+		display: none;
+	}
+}
+@media only screen and (min-width: 1024px){
+	.desktop{
+		display: block;
+	}
+	.tablet{
+		display: none;
+	}
+	.phone{
+		display: none;
+	}
+}
