@@ -3,7 +3,9 @@
 	padding: 0;
 }
 #container{
-	padding: 10px;
+	padding: 2%;
+	position: absolute;
+	width: 96%;
 }
 header{
 	background-color: green;
@@ -13,18 +15,17 @@ header{
 aside{
 	background-color: blue;
 	vertical-align: top;
-	height: 200px;
-	width: 120px;
+	height: 300px;
 }
 #main{
 	background-color: red;
-	height: 300px;
-	padding: 10px;
+	min-height: 250px;
+	height: 550px;
+	padding: 1%;
 }
 .yellow{
 	display: inline-block;
 	background-color: yellow;
-	height: 45%;
 }
 .purple{
 	display: block;
@@ -37,6 +38,19 @@ aside{
 	aside{
 		display: none;
 	}
+	.yellow{
+		display: block;
+		width: 100%;
+		height: 24%;
+		margin-top: 10px;
+	}
+	.purple{
+		margin-top: 10px;
+		height: 20%;
+	}
+	#main{
+		padding: 2% 4% 2% 4%;
+	}
 }
 @media only screen and (min-width: 481px){
 	aside{
@@ -46,22 +60,29 @@ aside{
 		display: block;
 	}
 	.yellow{
-		width: 45%;
+		width: 47%;
+		height: 35%;
 		margin: 1%;
 	}
 }
 @media only screen and (min-width: 1024px){
 	aside{
 		display: inline-block;
-		width: 23%;
-		margin-right: 1%;
+		width: 21%;
+		margin-right: 10px
 	}
 	#main{
 		width: 73%;
 		display: inline-block;
+		position: absolute;
+		right: 2%;
 	}
 	.yellow{
 		width: 30%;
+		height: 50%;
 		margin: 1%;
+	}
+	.purple{
+		height: 40%;
 	}
 }
