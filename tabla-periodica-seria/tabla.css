@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: solid 1px black;
+}
+.container{
+    padding: 1%;
+    background-color: silver;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 19fr;
+}
+.grid_container .grid_index{
+    grid-column: 1;
+    color: red;
+    text-align: center;
+    padding: 1%;
+}
