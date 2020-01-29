@@ -1,0 +1,105 @@
+*{
+	/*outline: 2px dotted black;*/
+	padding: 0px;
+}
+.container #main h2, .container #main h3{
+	margin:0px;
+	background-image: linear-gradient(#d1d1d1, gray, #d1d1d1);
+	color: white;
+	padding: 10px;
+}
+.container{
+	width: 1000px;
+	min-height: 1000px;
+	margin: 0px auto;
+}
+.container #header{
+	position: relative;
+	width: auto;
+	min-height: 50px;
+	background-color: #eaeaea;
+}
+.container #header h1{
+	font-family: "Comic Sans MS";
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
+}
+.container #header h3{
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+	top: auto;
+}
+.container #main{
+	width: auto;
+	min-height: 500px;
+	background-color: #603738;
+	margin-bottom: 0px;
+	/*padding: 20px;*/
+}
+.container #main #photo{
+	vertical-align: top;
+	display: inline-block;
+	width: 342px;
+	border: 5px #b7b7b7 solid;
+	margin: 20px;
+}
+.container #main #about{
+	padding: 10px;
+	vertical-align: top;
+	display: inline-block;
+	background-color: #d8d8d8;
+	width: 558px;
+	height: 215px;
+	margin: 20px 20px 20px 0px;
+}
+.container #main .content{
+	display: inline-block;
+	vertical-align: top;
+	background-color: #d8d8d8;
+	width: 302px;
+	min-height: 300px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+.container #main .content img{
+	width: 302px;
+}
+.container #main .content .text{
+	min-height: 250px;
+	width: auto;
+	margin: 5px 5px 30px 5px;
+}
+.container #main .content .logo{
+	padding: 5px;
+	display: inline-block;
+	width: 40px;
+}
+.container #main .content .button{
+	text-align: center;
+	margin: 10px;
+}
+.container #main .content .button a{
+	display: inline-block;
+	border-radius: 5px;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+	background-color: #275e44;
+}
+.container footer{
+	display: inline-block;
+	text-align: center;
+	width: 1000px;
+	min-height: 20px;
+	background-color: #d8d8d8;
+}
+.container footer img{
+	display: inline-block;
+	width: 20px;
+}
+.container footer a{
+	text-decoration: underline black;
+	color: black;
+	font-style: italic
+}
